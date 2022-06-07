@@ -704,10 +704,10 @@ footer i {
         padding-bottom: 145px;
     }
 
-    .projects-image-cross {
-        margin: 20px 0px 0px 0px;
-        width: 170px;
-        height: 50px;
+    .projects-image-blue {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .projects-image {
