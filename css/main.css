@@ -258,7 +258,6 @@ nav a:hover::before {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 50vh;
 }
 
 .box2 h1 {
@@ -354,7 +353,6 @@ nav a:hover::before {
 
 .box3 section p {
     font-size: 20px;
-
     width: 300px;
 }
 
@@ -393,7 +391,6 @@ nav a:hover::before {
 footer {
     background-color: #f2f2f2;
     color: #2f356f;
-    height: 40vh;
 }
 
 footer h4, h5 {
@@ -503,13 +500,13 @@ footer i {
     .content {
         max-width: 600px;
         margin-bottom:10px;
-        padding-top: 0;
+        padding-top: 0px;
         height: 59vh;
         background: none;
     }
 
     .content h1 {
-        padding: 60px 100px 0px 30px;
+        padding: 60px 200px 0px 30px;
         font-size: 280%;
     }
 
@@ -566,11 +563,12 @@ footer i {
 
     .hero {
         flex-wrap: wrap;
-        padding-top: 1em;
+        padding-top: 1rem;
     }
 
     section.container.hero.row {
-        margin: 0;
+        margin: 0px;
+        height: 100%;
     }
 
 
@@ -627,7 +625,7 @@ footer i {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 45rem;
+        height: 42.5rem;
         text-align: center;
         background-color: #f2f2f2;
     }
@@ -641,7 +639,7 @@ footer i {
     }
 
     .footer-1 p {
-        padding: 2rem;
+        padding: 1rem;
     }
 
     .footer-2 li a { 
@@ -665,8 +663,7 @@ footer i {
         color: #2f356f;
         background-color: #f2f2f2;
         /* border-top: 1px solid white; */
-        display: grid;
-        grid-template-rows: 2fr;
+        width:100%;
         /* margin-bottom: 20px; */
     }
 
