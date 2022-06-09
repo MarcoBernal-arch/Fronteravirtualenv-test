@@ -499,9 +499,8 @@ footer i {
 
     .content {
         max-width: 600px;
-        margin-bottom:10px;
+        max-height: 550px;
         padding-top: 0px;
-        height: 59vh;
         background: none;
     }
 
@@ -529,8 +528,11 @@ footer i {
         opacity: 0;
     }
 
-    .img video {
-        display: none;
+    .img {
+        /* position: relative; */
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
     }
 
     .navigation.active {
@@ -570,7 +572,6 @@ footer i {
         margin: 0px;
         height: 100%;
     }
-
 
     .box2 {
         width: 100%;
