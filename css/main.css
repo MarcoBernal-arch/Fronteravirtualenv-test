@@ -458,10 +458,8 @@ footer i {
     background-color: #f2f2f2;
     /* border-top: 1px solid white; */
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-grow: 2;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     /* margin-bottom: 20px; */
 }
 
@@ -577,7 +575,7 @@ footer i {
 
 
     .box2 {
-        width: ;
+        width: 100%;
         height: 200%;
         padding: 15px;
     } 
@@ -623,13 +621,13 @@ footer i {
         width: 200px;
         height: 200px;
     }
-
+    
     footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center ;
-        height: 70vh;
+        align-items: center;
+        height: 45rem;
         text-align: center;
         background-color: #f2f2f2;
     }
@@ -640,11 +638,10 @@ footer i {
 
     .footer-1 hr {
         display: none;
-
     }
 
     .footer-1 p {
-        padding-right: 0;
+        padding: 2rem;
     }
 
     .footer-2 li a { 
@@ -665,11 +662,12 @@ footer i {
     }
 
     .sub-footer {
-        display: flex;
-        flex-direction: column;
-        font-size: small;
-        margin-top: 50px;
-        text-align: center;
+        color: #2f356f;
+        background-color: #f2f2f2;
+        /* border-top: 1px solid white; */
+        display: grid;
+        grid-template-rows: 2fr;
+        /* margin-bottom: 20px; */
     }
 
 }
@@ -701,7 +699,7 @@ footer i {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-bottom: 145px;
+        padding-bottom: 11rem;
     }
 
     .projects-image-blue {
@@ -718,6 +716,10 @@ footer i {
         height: 225px;
     }
 
+}
+
+@media screen and (max-height:1000px) {
+    
 }
 
 /* End Media */
