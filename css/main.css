@@ -294,7 +294,7 @@ nav a:hover::before {
 }
 
 .objetivo p {
-    text-align: justify ;
+    text-align: justify;
 }
 
 .mision {
@@ -322,6 +322,7 @@ nav a:hover::before {
 .vision h2{
     text-align: center;
 }
+
 .box3 {
     display: flex;
     background-color: #2c2c67;
@@ -465,7 +466,7 @@ footer i {
 }
 
 /* Media */
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1080px) {
     body {
         background-image: url(../assets/img/backgroundweb-1920x2160.png);
         -webkit-background-size: auto 200%;
@@ -589,7 +590,9 @@ footer i {
         padding: 50px;
     }
 
-    .box3 {
+/* Goals fix below 1,000px */
+
+.box3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -597,15 +600,22 @@ footer i {
     align-items: center;
 }
 
-    .box3 p{
-        padding: 50px;
-        text-align: center;
-    }
+.box3 p{
+    padding: 40px;
+    text-align: center;
+}
+
+.box3 section p {
+    font-size: 1.25rem;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
 
     section.mision {
-    padding-right: 0;
-    padding-top: 0;
-}
+        padding-right: 0;
+        padding-top: 0;
+    }
 
     section.vision {
         padding-right: 0;
@@ -674,18 +684,18 @@ footer i {
 
 @media screen and (max-width:320px) {
 
-.content h1 {
-    font-weight: 900;
-    font-size: 35px;
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 1;
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
+    .content h1 {
+        font-weight: 900;
+        font-size: 35px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 1;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 
 }
 
@@ -716,8 +726,32 @@ footer i {
 
 }
 
-@media screen and (max-height:1000px) {
+/* Adjusts goals box between iPad and screen resolution, not done yet tho */
+
+@media screen and (max-width:1299px) {
+
+    .box3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 24px;
+        align-items: center;
+}
     
+    }
+
+/* Makes the goals box look like it should */
+
+@media screen and (max-width:1300px) {
+
+.box3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 24px;
+        align-items: center;
+}
+
 }
 
 /* End Media */
