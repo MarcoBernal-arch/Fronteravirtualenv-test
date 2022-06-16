@@ -590,7 +590,7 @@ footer i {
         padding: 50px;
     }
 
-/* Goals fix below 1,000px */
+/* Goals fix below 1,080px */
 
 .box3 {
     display: flex;
@@ -680,7 +680,7 @@ footer i {
 
 }
 
-/* Metaverse text fix at 320px*/
+/* Metaverse text fix at 320px */
 
 @media screen and (max-width:320px) {
 
@@ -699,7 +699,7 @@ footer i {
 
 }
 
-/* Projects Fix at 730px and lower*/
+/* Projects Fix at 730px and lower */
 
 @media screen and (max-width:730px) {
     
@@ -726,31 +726,36 @@ footer i {
 
 }
 
-/* Adjusts goals box between iPad and screen resolution, not done yet tho */
+/* Adjusts goals box between iPad and proper screen resolution */
 
-@media screen and (max-width:1299px) {
+@media screen and (min-width: 1081px) and (max-width: 1300px) {
 
     .box3 {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
-        font-size: 24px;
-        align-items: center;
-}
-    
+        font-size: 2rem;
+        align-items: normal;
+        padding-bottom: 40px;
     }
 
-/* Makes the goals box look like it should */
+    .mision, .vision{
+        font-size: 1.5rem;
+        padding-right: 40px;
+        text-align: justify;
+    }
 
-@media screen and (max-width:1300px) {
+    .objetivo {
+        font-size: 1.5rem;
+        padding-right: 0px;
+        text-align: justify;
+    }
 
-.box3 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        font-size: 24px;
-        align-items: center;
-}
+    .box3 section p {
+        font-size: 1.25rem;
+        padding: 1rem;
+    }
 
 }
 
